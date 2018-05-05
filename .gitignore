@@ -1,1 +1,8 @@
 media/assignments/*
+*.sql
+*.sqlite
+*/__pycache__
+ summer_camp/migrations/__pycache__/*
+*.pyc
+*.swp
+*.sqlite3

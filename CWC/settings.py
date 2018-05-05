@@ -25,7 +25,7 @@ SECRET_KEY = '7kydhx5=9z8&8ow@(z#(kn)xnv@3u)gr2v9i30su6*j*go+w+9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost','.pythonanywhere.com','alphago.pythonanywhere.com']
 
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
       'HOST': '',
       'PORT': '',
    }
-    
+
 }
 
 
@@ -129,4 +129,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 FILE_UPLOAD_HANDLERS = ["django.core.files.uploadhandler.MemoryFileUploadHandler", "django.core.files.uploadhandler.TemporaryFileUploadHandler"]
 MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
